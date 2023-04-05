@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City information</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Information about cities</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="input">
+                <input class="city-input" type="text" placeholder="Enter a city name">
+                <button class="city-button">Get information</button>
+            </div>
+            <div class="info hidden">
+                <div class="country">
+                    <p class="code"></p>
+                    <p class="name"></p>
+                </div>
+                <div class="geo">
+                    <p class="id"></p>
+                </div>
+                <div class="coordinates">
+                    <p class="latitude"></p>
+                    <p class="longitude"></p>
+                </div>
+                <div class="city">
+                    <p class="city-name"></p>
+                    <p class="state"></p>
+                </div>
+            </div>
+            <div class="loader hidden">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
